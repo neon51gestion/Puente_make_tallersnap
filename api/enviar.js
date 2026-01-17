@@ -23,7 +23,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "Faltan datos" });
     }
 
-    const response = await fetch("https://hook.eu1.make.com/7foscbw5sabj76rgb4qy208236w", {
+    const response = await fetch("https://hook.eu1.make.com/7foscbw5sabj76rgb4qy208236ww9p34", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
